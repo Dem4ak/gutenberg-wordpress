@@ -1,0 +1,76 @@
+.wrapper_our_team {
+  padding: 50px 0; }
+  .wrapper_our_team .our_team__title {
+    font-family: Montserrat;
+    font-size: 32px;
+    line-height: 53px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    color: #314a5b;
+    margin-bottom: 16px; }
+    .wrapper_our_team .our_team__title span {
+      color: #f0454c; }
+  .wrapper_our_team .our_team__subtitle {
+    font-family: 'Open Sans';
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #9aa0ab;
+    margin-bottom: 40px; }
+  .wrapper_our_team .our_team__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    @media (max-width: 767px) {
+      .wrapper_our_team .our_team__list {
+        flex-wrap: wrap; } }
+    .wrapper_our_team .our_team__list .employee {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      flex-wrap: wrap; }
+      @media (max-width: 767px) {
+        .wrapper_our_team .our_team__list .employee {
+          flex-wrap: nowrap; } }
+      .wrapper_our_team .our_team__list .employee + .employee {
+        margin-left: 15px; }
+        @media (max-width: 767px) {
+          .wrapper_our_team .our_team__list .employee + .employee {
+            margin-left: 0; } }
+      .wrapper_our_team .our_team__list .employee__image {
+        min-width: 120px;
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin-right: 22px; }
+        .wrapper_our_team .our_team__list .employee__image img {
+          width: 100%;
+          height: 100%; }
+      .wrapper_our_team .our_team__list .employee__info {
+        max-width: 160px; }
+        .wrapper_our_team .our_team__list .employee__info-title {
+          font-family: Montserrat;
+          font-size: 22px;
+          line-height: 53px;
+          font-weight: 700;
+          text-transform: uppercase;
+          letter-spacing: -0.02em;
+          color: #314a5b;
+          margin-bottom: 11px; }
+        .wrapper_our_team .our_team__list .employee__info-position {
+          font-family: 'Open Sans';
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 400;
+          color: #f0454c;
+          margin-bottom: 15px; }
+        .wrapper_our_team .our_team__list .employee__info-text {
+          font-family: 'Open Sans';
+          font-size: 14px;
+          line-height: 20px;
+          font-weight: 400;
+          color: #9aa0ab; }
+
+/*# sourceMappingURL=our_team.css.map */

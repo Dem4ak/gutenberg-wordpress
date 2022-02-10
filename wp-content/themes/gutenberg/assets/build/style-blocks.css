@@ -1,0 +1,365 @@
+/*!****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./template-parts/blocks/banner/style.scss ***!
+  \****************************************************************************************************************************************************************************************************************************************************************/
+.wrapper_banner {
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  min-height: 700px;
+  z-index: 5;
+}
+@media (max-width: 767px) {
+  .wrapper_banner {
+    background-position: center right;
+  }
+}
+.wrapper_banner > img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 767px) {
+  .wrapper_banner > img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    height: 100%;
+  }
+}
+.wrapper_banner .banner {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  margin-left: -485px;
+  max-width: 970px;
+  padding: 75px 15px 0;
+}
+@media (max-width: 969px) {
+  .wrapper_banner .banner {
+    max-width: 100%;
+    margin-left: 0;
+    width: 100%;
+    left: 0;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper_banner .banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 7;
+    padding-bottom: 40px;
+  }
+}
+.wrapper_banner .banner__title {
+  font-family: Montserrat;
+  font-size: 48px;
+  line-height: 53px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  color: #314a5b;
+  max-width: 480px;
+  margin-top: 270px;
+}
+@media (max-width: 969px) {
+  .wrapper_banner .banner__title {
+    margin-top: 170px;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper_banner .banner__title {
+    margin-top: 50px;
+    font-size: 28px;
+    line-height: 33px;
+    max-width: 180px;
+  }
+}
+.wrapper_banner .banner__title span {
+  color: #fa5c65;
+}
+.wrapper_banner .banner__text {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 40px;
+  font-weight: 400;
+  color: #314a5b;
+  margin-top: 20px;
+}
+@media (max-width: 767px) {
+  .wrapper_banner .banner__text {
+    font-size: 14px;
+    line-height: 30px;
+  }
+}
+.wrapper_banner .banner__btn {
+  width: 171px;
+  height: 64px;
+  background-color: #fa5c65;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 48px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 20px;
+  border-radius: 6px;
+}
+/*!********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./template-parts/blocks/advantages/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************************/
+.wrapper_advantages {
+  padding: 65px 0;
+}
+.wrapper_advantages .advantages {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+@media (max-width: 767px) {
+  .wrapper_advantages .advantages {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.wrapper_advantages .advantages .advantage__title {
+  font-family: Montserrat;
+  font-size: 26px;
+  line-height: 26px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #465065;
+  margin-bottom: 24px;
+}
+.wrapper_advantages .advantages .advantage__title span {
+  color: #f0454c;
+}
+@media (max-width: 969px) {
+  .wrapper_advantages .advantages .advantage__title br {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  .wrapper_advantages .advantages .advantage__title br {
+    display: block;
+  }
+}
+.wrapper_advantages .advantages .advantage__text {
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #9aa0ab;
+  margin-bottom: 30px;
+}
+.wrapper_advantages .advantages .advantage__link {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #fa5c65;
+}
+.wrapper_advantages .advantages .advantage__link a {
+  color: inherit;
+  text-decoration: none;
+}
+.wrapper_advantages .advantages .advantage__link i {
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+}
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./template-parts/blocks/portfolio/style.scss ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.wrapper_portfolio .portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 767px) {
+  .wrapper_portfolio .portfolio {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+.wrapper_portfolio .portfolio__image {
+  width: 424px;
+}
+.wrapper_portfolio .portfolio__image img {
+  width: 100%;
+}
+.wrapper_portfolio .portfolio__content {
+  padding-left: 56px;
+}
+@media (max-width: 767px) {
+  .wrapper_portfolio .portfolio__content {
+    padding-left: 0;
+  }
+}
+.wrapper_portfolio .portfolio__content-title {
+  font-family: Montserrat;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.04em;
+  color: #314a5b;
+  margin-bottom: 17px;
+}
+.wrapper_portfolio .portfolio__content-title span {
+  color: #f0454c;
+}
+.wrapper_portfolio .portfolio__content-subtitle {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #314a5b;
+  margin-bottom: 30px;
+}
+.wrapper_portfolio .portfolio__content-text {
+  max-width: 400px;
+}
+.wrapper_portfolio .portfolio__content-text p {
+  font-family: "Open Sans";
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+  color: #9aa0ab;
+  margin-bottom: 20px;
+}
+.wrapper_portfolio .portfolio__content-link {
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #f0454c;
+}
+.wrapper_portfolio .portfolio__content-link a {
+  color: inherit;
+  text-decoration: none;
+}
+.wrapper_portfolio .portfolio__content-link i {
+  margin-left: 10px;
+  width: 12px;
+  height: 12px;
+}
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[3].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[3].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[3].use[3]!./template-parts/blocks/our-team/style.scss ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+.wrapper_our_team {
+  padding: 50px 0;
+}
+.wrapper_our_team .our_team__title {
+  font-family: Montserrat;
+  font-size: 32px;
+  line-height: 53px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #314a5b;
+  margin-bottom: 16px;
+}
+.wrapper_our_team .our_team__title span {
+  color: #f0454c;
+}
+.wrapper_our_team .our_team__subtitle {
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9aa0ab;
+  margin-bottom: 40px;
+}
+.wrapper_our_team .our_team__list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+@media (max-width: 767px) {
+  .wrapper_our_team .our_team__list {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+}
+.wrapper_our_team .our_team__list .employee {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+@media (max-width: 767px) {
+  .wrapper_our_team .our_team__list .employee {
+    flex-wrap: nowrap;
+  }
+}
+.wrapper_our_team .our_team__list .employee + .employee {
+  margin-left: 15px;
+}
+@media (max-width: 767px) {
+  .wrapper_our_team .our_team__list .employee + .employee {
+    margin-left: 0;
+  }
+}
+.wrapper_our_team .our_team__list .employee__image {
+  min-width: 120px;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-right: 22px;
+}
+.wrapper_our_team .our_team__list .employee__image button {
+  width: 100%;
+  height: 100%;
+  display: block;
+  padding: 0;
+}
+.wrapper_our_team .our_team__list .employee__image img {
+  width: 100%;
+  height: 100%;
+}
+.wrapper_our_team .our_team__list .employee__info {
+  max-width: 160px;
+}
+.wrapper_our_team .our_team__list .employee__info-title {
+  font-family: Montserrat;
+  font-size: 22px;
+  line-height: 53px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  color: #314a5b;
+  margin-bottom: 11px;
+}
+.wrapper_our_team .our_team__list .employee__info-position {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #f0454c;
+  margin-bottom: 15px;
+}
+.wrapper_our_team .our_team__list .employee__info-text {
+  font-family: "Open Sans";
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9aa0ab;
+}
+
+/*# sourceMappingURL=style-blocks.css.map*/

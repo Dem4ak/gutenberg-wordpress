@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,KAAM;EACL,OAAO,EAAE,YAAY;EACrB,eAAe,EAAE,SAAS;EAE1B,aAAU;IACT,gBAAgB,EAAE,oCAAoC;EAEvD,cAAW;IACV,gBAAgB,EAAE,qCAAqC;EAExD,cAAW;IACV,gBAAgB,EAAE,qCAAqC;EAExD,WAAQ;IACP,gBAAgB,EAAE,gDAAgD",
+"sources": ["icons.scss"],
+"names": [],
+"file": "icons.css"
+}

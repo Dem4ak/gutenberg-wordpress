@@ -1,0 +1,17 @@
+.icon {
+	display: inline-block;
+	background-size: 100% 100%;
+
+	&-twitter {
+		background-image: url(../../assets/images/twitter.svg);
+	}
+	&-facebook {
+		background-image: url(../../assets/images/facebook.svg);
+	}
+	&-linkedin {
+		background-image: url(../../assets/images/linkedin.svg);
+	}
+	&-arrow {
+		background-image: url(../../assets/images/iconmonstr-arrow-21.svg);
+	}
+}
